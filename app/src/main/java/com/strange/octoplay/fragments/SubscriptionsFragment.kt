@@ -1,12 +1,13 @@
-package com.strange.octoplay
+package com.strange.octoplay.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.strange.octoplay.R
 
-class TrendingFragment : Fragment() {
+class SubscriptionsFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
@@ -16,6 +17,6 @@ class TrendingFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_trending, container, false)
+        return inflater.inflate(R.layout.fragment_subscriptions, container, false)
     }
 }
