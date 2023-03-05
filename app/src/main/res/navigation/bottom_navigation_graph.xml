@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation_graph"
+    app:startDestination="@id/subscriptionsFragment">
+
+    <fragment
+        android:id="@+id/subscriptionsFragment"
+        android:name="com.strange.octoplay.SubscriptionsFragment"
+        android:label="fragment_subscriptions"
+        tools:layout="@layout/fragment_subscriptions" />
+    <fragment
+        android:id="@+id/trendingFragment"
+        android:name="com.strange.octoplay.TrendingFragment"
+        android:label="fragment_trending"
+        tools:layout="@layout/fragment_trending" />
+    <fragment
+        android:id="@+id/downloadsFragment"
+        android:name="com.strange.octoplay.DownloadsFragment"
+        android:label="fragment_downloads"
+        tools:layout="@layout/fragment_downloads" />
+</navigation>
