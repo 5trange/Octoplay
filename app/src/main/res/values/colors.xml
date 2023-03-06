@@ -7,12 +7,4 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-
-    <!-- Custom Colors -->
-    <color name="primary_brand_color">#f50057</color>
-    <color name="activity_background">#121212</color>
-    <color name="navbar_background_color">#212121</color>
-    <color name="navbar_text_color">#f48fb1</color>
-    <color name="navbar_selected_icon_background">#ff80ab</color>
-    <color name="status_bar_color">#f50057</color>
 </resources>
